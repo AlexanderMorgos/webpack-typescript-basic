@@ -9,5 +9,5 @@ class App extends React.Component<AppProps> {
     return <div>App</div>;
   }
 }
-
+ 
 export default App;
