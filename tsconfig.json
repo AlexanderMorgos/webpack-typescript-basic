@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@shared/*": ["src/shared/*"],
+      "@modules/*": ["src/modules/*"],
+      "@core/*": ["src/core/*"]
+    },
+    "target": "es5",
+    "module": "esnext",
+    "lib": ["es6", "dom"],
+    "jsx": "react",
+  },
+  "compileOnSave": true,
+  "include": [
+    "src/**/*"
+  ]
+}
